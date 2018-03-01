@@ -1,0 +1,25 @@
+page-phone-verification {
+    ion-item {
+        margin-bottom: 32px !important;
+      }
+      .bg{
+        background: linear-gradient(250deg,#FF0000,#F12894,#D323CD,#f12B5B,#F54526);
+        background-size: 400% 400%;
+        animation: colorchange 25s ease-out infinite;
+     }
+     @keyframes colorchange {
+         0%{background-position: 0% 90%}
+         50%{background-position:100% 1%} 
+         100%{background-position: 10% 90%}
+       }
+       .bg.no-scroll .scroll-content{
+        overflow: hidden;
+   }
+   .center{
+     text-align: center;
+   }
+   ion-title{
+    text-align: center;
+  }
+  
+}
